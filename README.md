@@ -2,10 +2,8 @@ import cv2
 import os
 import string
 img = cv2.imread("mypicture.jpg")
-
 msg = input("Enter secret message:")
 password = input("Enter a passcode:")
-
 d = {}
 c = {}
 
